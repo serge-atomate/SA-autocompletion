@@ -1,0 +1,9 @@
+2014-06-02 16:50:20,430 - [INFO] - from play in pool-4-thread-2 
+Listening for HTTP on /0:0:0:0:0:0:0:0%0:9000
+
+2014-06-02 16:50:36,519 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://127.0.0.1:3306/SA
+
+2014-06-02 16:50:38,244 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+

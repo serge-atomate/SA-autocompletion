@@ -1,0 +1,36 @@
+@(searchForm: Form[Search])
+
+@import helper._
+@import helper.twitterBootstrap._
+
+@main("GoPubMed® - Transinsight's semantic search for the life sciences") {
+	<div class="main">
+
+		<div class="search-form">
+
+			<div class="Banner"></div>
+
+
+    		@form(routes.Searches.newSearch()) {
+				<div class="input-group">
+
+	        		<!-- @inputText(searchForm("term"), '_label -> "IP", 'placeholder -> "IP")  -->
+			      	<input type="text" class="form-control" autocomplete="off" data-provide="typeahead" id="term" name="term">
+			      	<span class="input-group-btn">
+			        	<!-- <button class="btn  greenButtonFind" type="button">Find!</button> -->
+	        			<input type="submit" value="Find!" class="btn greenButtonFind">  
+			      	</span>
+			    </div><!-- /input-group -->
+    		}
+
+	    </div>
+
+	</div>
+
+
+	<script>
+	  	$(document).ready(function() {
+	  		// alert('df');
+	  	});
+	</script>
+}
